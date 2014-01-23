@@ -22,16 +22,6 @@ span.big {
 	border-bottom: 2px solid #eee;
 }
 
-.hero-unit h1 {
-	line-height: 120px;
-	font-size: 120px;
-	vertical-align: bottom;
-	display: inline;
-	font-family: 'Titillium Web', "Helvetica Neue", Helvetica, Arial, sans-serif;
-	color: #29ABE2;
-	text-shadow: -1px 0 #0071bc, 0 1px #0071bc, 1px 0 #0071bc, 0 -1px #0071bc;
-	padding-left: 20px;
-}
 
 .hero-unit p {
 	font-family: 'Arvo', serif;
