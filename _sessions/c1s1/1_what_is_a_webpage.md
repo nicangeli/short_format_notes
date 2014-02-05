@@ -2,8 +2,6 @@
 title: What is a web page?
 ---
 
-(this is the link text)["https://docs.google.com/forms/d/1tVWAm91cD8V6T1HhbRhgcEjM9zsLsN5o0djvDPrPF4A/viewform"]
-
 A webpage is just a set of files that your web browser knows how to display.
 
 There are three possibilities for the types of files they could be: HTML, CSS and Javascript. Most web pages will be a mixture of all three. Because the files have to be able to be interpreted by all web browsers on all operating systems, the choices are limited and don't change very often.
