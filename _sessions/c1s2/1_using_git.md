@@ -8,7 +8,8 @@ Git is a version control system. It allows you to keep the entire history of you
 
 ### Setting up a git repo
 
-Git works on a folder level. To set up a folder to work with git you need to open up the github app and select `File > Add Local Repository ...`. You then need to select the folder you want to control with git.
+Git works on a folder level. To set up a folder to work with git you need to open up the Sourcetree app and select `File > New / Clone`. You then need to select the Create Repository tab from the top menu. In the Desitnation Path browse to the folder that you want to control with Git.  
+
 
 ### Excluding some files
 
