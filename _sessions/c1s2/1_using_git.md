@@ -17,6 +17,8 @@ There are some other hidden files (e.g. those used by your operating system) tha
 
 To do this you need to change the settings on your repository.
 
+This won't work with Sourcetree. If you try and do this email Nick.
+
 1. Open the settings tab of your repository.
 2. Add `.DS_Store` on the first line of the 'Ignored files' section, and press 'Save Changes'.
 
@@ -30,9 +32,10 @@ Adding files to a git repository is actually a two-stage process: you have to **
 
 
 {% exercise %}
-1. Set up your `first_site` folder as a git repository: open up the github app, select `File > Add Local Repository ...` and select the `first_site` folder.
-2. **If you are on a mac**, tell git to ignore your `.DS_Store` files: in the settings panel of the github app, add the line `.DS_Store` in the 'Ignored files' section.
-3. Commit your work to the repository: in the 'Changes' panel, click 'Select all', write a 'Commit Summary' in the box (e.g. "Created index.html") and click 'Commit'.
-6. Make some change to index.html (in Sublime Text)        
-7. Go back to the 'Changes' panel. Select and commit your changes, with a 'Commit Summary' describing what you did.
+1. Create a new folder that will be home to your personal project that you'll use throughout this course. (Or skip this if you already have something you want to use)
+2. Set up this folder as a git repository: open up Sourcetree, select `File > New/Clone ...` and select your folder in the destination path.
+3. Add your files to the staging area one by one using the Add button. The files should move from the working tree (bottom) panel to the staged panel (top).
+4. Commit your work to the repository using the Commit button. Type a commit message and hit commit. 
+6. Make some change to index.html (in Sublime Text, or another file if you don't have an index.html file)        
+7. Go back to Sourcetree. Select and commit your changes, with a 'Commit message' describing what you did.
 {% endexercise %}
